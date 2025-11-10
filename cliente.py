@@ -9,7 +9,6 @@ def cliente_existe(*,
     for cliente in lista_clientes:
        if cliente['cpf'] == cpf:
            return True
-       return False
 
 def cadastrar_cliente(*,cpf: str,
                       nome: str,
